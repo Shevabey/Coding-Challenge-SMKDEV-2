@@ -1,0 +1,11 @@
+Jake adalah orang yang sangat terbiasa. Dia makan sarapan pada pukul 07.00 setiap pagi, makan siang pada pukul 12.00, dan makan malam pada pukul 19.00 malam.
+
+Buat fungsi yang mengambil waktu saat ini sebagai string dan menentukan durasi waktu sebelum makan Jake berikutnya. Nyatakan ini sebagai larik dengan elemen pertama dan kedua masing-masing mewakili jam dan menit.
+
+Contoh:
+
+timeToEat('14:00') -> [5, 0] 
+// 5 Jam hingga waktu makan berikutnya, makan malam 
+
+timeToEat('5:50 am') -> [1, 10] 
+// 1 Jam 10 menit hingga makan berikutnya, sarapan
